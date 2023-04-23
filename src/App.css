@@ -1,6 +1,54 @@
 .App {
   text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #282D35;
 }
+
+.Navbar{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 1em
+}
+
+.Navbar h1{
+  color: #61DAFB;
+  margin-left: 8px;
+  margin-right: 20px;
+}
+
+.Navbar p{
+  margin-left: auto;
+  color: white;
+}
+
+.Main{
+  text-align: left;
+  padding: 2em;
+  color: white;
+  background: url('./img/reactjs-icon2.png') no-repeat right center;
+}
+
+.Main h1{
+  /* font-size: 2.3rem; */
+  margin-bottom: 20px;
+}
+.Main ul{
+  padding-bottom: 3em;
+}
+.Main li{
+  font-family: 'Inter';
+  font-size: 1.3rem;
+  margin-block: 10px;
+
+}
+
+li::marker{
+  color: #61DAFB;
+  font-size: 25px;
+}
+
 
 .App-logo {
   height: 40vmin;
